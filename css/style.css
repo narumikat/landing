@@ -1,0 +1,232 @@
+/* Fonts */
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700"); */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Fontawesome */
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: #070709;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Custom design below! */
+
+.banner {
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url(/landing/images/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-home {
+  display: flex;
+  bottom: 0;
+  height: 100%;
+  width: auto;
+  margin: 2rem auto 0 auto;
+}
+
+.top-text h1 {
+  background: linear-gradient(
+    93deg,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgb(255, 255, 255) 43.2432%,
+    rgba(255, 255, 255, 0) 140.921%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.top-text .second-h1 {
+  background-image: linear-gradient(
+    91deg,
+    rgba(0, 0, 0, 0.6) -92.2927%,
+    rgb(71, 255, 155) 100%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.top-text a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -50deg,
+    #2dff8e,
+    #47ff9c,
+    #fff,
+    #a7ffcf,
+    #47ff9c
+  );
+  background-size: 400%;
+  background-position: left;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 32px;
+  margin-top: 2rem;
+  font-weight: bold;
+  transition: background-position 1s;
+  box-shadow: 1px 1px 6px rgba(71, 255, 155, 0.6);
+}
+
+.top-text a:hover {
+  background-position: right;
+}
+
+.top-text p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+/* MIDDLE CONTAINER  */
+
+.container {
+  width: 90%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-text {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle-text h2 {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 1) 20%,
+    rgba(255, 255, 255, 0) 130%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  font-size: 2rem;
+}
+
+.middle-text h3 {
+  background-image: linear-gradient(
+    97deg,
+    rgb(71, 255, 156) 0%,
+    rgba(255, 255, 255, 0) 125%
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* CARDS  */
+
+.card-section {
+  display: flex;
+}
+
+.card {
+  color: #fff;
+  width: 18rem;
+  background: #0f0f10;
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: box-shadow 1s;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(71, 255, 155, 0.6);
+  cursor: pointer;
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card p {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.card img {
+  height: 120px;
+  width: auto;
+}
+
+.card span {
+  color: #2dff8e;
+  font-weight: 500;
+}
+
+/* FOOTER  */
+
+footer {
+  background: #0f0f10;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer i {
+  color: #2dff8e;
+  font-size: 2.5rem;
+  margin: 1rem;
+}
